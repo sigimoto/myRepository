@@ -1,0 +1,27 @@
+body{
+    background-color: gray;
+}
+.navbar{
+    background-color: indigo;
+}
+li a{
+    color: yellow !important;
+    font-size: 20px;
+}
+li a:hover{
+    color: indigo !important;
+    background-color: lightyellow;
+}
+.navbar-toggler{
+    background-color: lightgray;
+}
+nav{height: 50px;}
+@media (max-width:600px){
+    nav{height: auto;}
+}
+.hu{
+    position:relative;
+	left:650px;
+    
+   
+}
