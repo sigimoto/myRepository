@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3 style="text-align:center ;">css的文章</h3>
+    <p style="margin: 20px">
+        CSS数据类型图中用<>括起来的表示一种CSS数据类型，介绍一下图中几个类型：
+
+<number>：表示值可以是数字
+<length>：表示元素的尺寸长度，例如3px、33em、34rem
+<percentage>：表示基于父元素的百分比，例如33%
+<number-percentage>：表示值既可以是 <number>，也可以是 <percentage>
+<position>：表示元素的位置。值可以是 <length>、<percentage>、left/right/top/bottom
+来看两个CSS属性：
+
+第一个是width，文档会告诉你该属性支持的数据类型有 <length> 和 <percentage>，那么我们就知道该属性有以下几种写法：width: 1px、width: 3rem、width: 33em、width: 33%
+第二个属性是background-position，文档会告诉你该属性支持的数据类型有 <position>，那么我们就知道该属性有以下几种写法：background-position: left、background-position: right、background-position: top、background-position: bottom、background-position: 30%、background-position: 3rem
+从这个例子中我们可以看出，想要尽可能得记住更多的CSS属性的使用，可以从记住CSS数据类型（现在差不多有40+种数据类型）开始，这样你每次学习新的CSS属性时，思路就会有所转变
+现在的思想不知道你有没有发现，如果文档只告诉你background-position支持 <position> 数据类型，你确定你能知道该属性的全部用法吗？你确实知道该属性支持background-position: 3rem这样的写法，因为你知道 <position> 数据类型包含了 <length> 数据类型，但你知道它还支持background-position: bottom 50px right 100px;这样的写法吗？为什么可以写四个值并且用空格隔开？这是谁告诉你的？
+
+    这就需要我们了解CSS的语法了，请认真看下一节
+    
+    三、读懂CSS的语法
+    
+    我之前某个样式中需要用到裁剪的效果，所以准备了解一下CSS中的clip-path属性怎么使用，于是就查询了比较权威的clip-path MDN[5]，看着看着，我就发现了这个
+    </p>
+</body>
+</html>
